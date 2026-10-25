@@ -9,6 +9,10 @@ enabled = true
 pattern = "${CUSTOM_DOMAIN}"
 custom_domain = true
 
+[[routes]]
+pattern = "mail.299326.xyz"
+custom_domain = true
+
 [[d1_databases]]
 binding = "db"
 database_name = "cloud-mail"
